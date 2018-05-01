@@ -1,0 +1,24 @@
+{
+  "mensa": {
+    "titleLogo": "logo.png",
+    "deviceImages": [
+      "iPhone.png",
+      "nexus.png",
+      "nexus.png"
+    ],
+    "storeImages": [
+      {
+        "image": "Download_on_the_App_Store_Badge_DE_Source_135x40.svg",
+        "link": "https://itunes.apple.com/us/app/mensaplan-munchen/id881876703?l=de&ls=1&mt=8"
+      },
+      {
+        "image": "google_play_de.svg",
+        "link": "https://play.google.com/store/apps/details?id=de.MaKeApp.MensaPlan"
+      },
+      {
+        "image": "amazon-apps-store-de-black.svg",
+        "link": "http://www.amazon.de/MaKeApp-Mensa-M%C3%BCnchen/dp/B00OX0XVY0/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "title": "MaKeApp",
+  "description": "MaKeApp is the coding and development group of Markus and Kevin",
+  "refs": [
+    {
+      "link": "https://github.com/MaKeAppDev",
+      "icon": ["fab", "github"],
+      "title": "GitHub"
+    },
+    {
+      "link": "mailto:development@makeappdev.com",
+      "icon": ["far", "envelope"],
+      "title": "Mail"
+    },
+    {
+      "link": "/support",
+      "icon": ["far", "life-ring"],
+      "title": "Support"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Apps",
+      "titleShort": "Apps",
+      "description": "List of all our applications developed for Android and iOS and provided in the related stores.",
+      "data": [
+        {
+          "title": "Mensa München",
+          "icon": "/static/logos/mensa.png",
+          "link": "/apps/mensa",
+          "description": "Always know the menu for all university canteens in munich",
+          "tags": [
+            {
+              "label": "Kotlin",
+              "icon": ""
+            },
+            {
+              "label": "Java",
+              "icon": "devicon-java-plain"
+            },
+            {
+              "label": "Objective-C",
+              "icon": ""
+            },
+            {
+              "label": "Swift",
+              "icon": "devicon-swift-plain"
+            },
+            {
+              "label": "PHP",
+              "icon": "devicon-php-plain"
+            }
+          ]
+        },
+        {
+          "title": "MaKe Admin",
+          "icon": "/static/logos/admin.svg",
+          "link": "",
+          "description": "Keep an overview about all your servers status in a single place",
+          "tags": [
+            {
+              "label": "Flutter",
+              "icon": ""
+            },
+            {
+              "label": "Dart",
+              "icon": ""
+            },
+            {
+              "label": "Kotlin",
+              "icon": ""
+            },
+            {
+              "label": "Swift",
+              "icon": "devicon-swift-plain"
+            }
+          ]
+        },
+        {
+          "title": "Volleyticker",
+          "icon": "/static/logos/volleyticker.png",
+          "link": "",
+          "description": "All results and ranking for the highest german volleyball divisions",
+          "tags": [
+            {
+              "label": "Flutter",
+              "icon": ""
+            },
+            {
+              "label": "Dart",
+              "icon": ""
+            },
+            {
+              "label": "Kotlin",
+              "icon": ""
+            },
+            {
+              "label": "Swift",
+              "icon": "devicon-swift-plain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Open Source Projects",
+      "titleShort": "Projects",
+      "description": "List of all our open source projects we were or are working on.",
+      "data": [
+        {
+          "title": "LaTeX 4 Ei",
+          "icon": "/static/logos/latex4ei.png",
+          "link": "http://latex4ei.de",
+          "description": "Notes and cheat sheets in LaTeX for electrical engineering (TUM)",
+          "tags": [
+            {
+              "label": "LaTeX",
+              "icon": ""
+            },
+            {
+              "label": "CMake",
+              "icon": ""
+            },
+            {
+              "label": "Travis",
+              "icon": "devicon-travis-plain"
+            }
+          ]
+        },
+        {
+          "title": "TeX4TUM",
+          "icon": "/static/logos/tex4tum.png",
+          "link": "http://tex4tum.de",
+          "description": "Interactive Knowledge Platform for Engineers",
+          "tags": [
+            {
+              "label": "LaTeX",
+              "icon": ""
+            },
+            {
+              "label": "Jekyll",
+              "icon": ""
+            },
+            {
+              "label": "Ruby",
+              "icon": "devicon-ruby-plain"
+            },
+            {
+              "label": "Bootstrap",
+              "icon": "devicon-bootstrap-plain"
+            }
+          ]
+        },
+        {
+          "title": "TUM-Projekte",
+          "icon": "/static/logos/ei.png",
+          "link": "https://makeappdev.github.io/TUM-Projekte/",
+          "description": "GitHub Page for our TUM Projects and Documents",
+          "tags": [
+            {
+              "label": "LaTeX",
+              "icon": ""
+            },
+            {
+              "label": "C++",
+              "icon": "devicon-cplusplus-plain"
+            },
+            {
+              "label": "CMake",
+              "icon": ""
+            },
+            {
+              "label": "Matlab",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Owners",
+      "titleShort": "Owners",
+      "description": "Some informations about ourselves.",
+      "data": [
+        {
+          "title": "Markus Hofbauer",
+          "icon": "/static/logos/make.svg",
+          "link": "/owners/hofbi",
+          "description": "",
+          "tags": [
+            {
+              "label": "Software Engineer",
+              "icon": "devicon-ubuntu-plain"
+            },
+            {
+              "label": "M.Sc. (TUM)",
+              "icon": ""
+            },
+            {
+              "label": "Dipl.-Ing. (TUM)",
+              "icon": ""
+            }
+          ]
+        },
+        {
+          "title": "Kevin Meyer",
+          "icon": "/static/logos/make.svg",
+          "link": "/owners/kevmeyer",
+          "description": "",
+          "tags": [
+            {
+              "label": "Software Engineer",
+              "icon": "devicon-apple-plain"
+            },
+            {
+              "label": "M.Sc. (TUM)",
+              "icon": ""
+            },
+            {
+              "label": "Dipl.-Ing. (TUM)",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
