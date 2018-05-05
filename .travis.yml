@@ -1,6 +1,5 @@
 language: node_js
 node_js: 9.11
-sudo: required
 
 addons:
   apt:
@@ -11,16 +10,9 @@ install:
 - cd makeapp-web
 - npm install
 
-before_script:
-- "sh -e /etc/init.d/xvfb start"
-- sleep 3 #wait a while before xvfb to start
-
 script:
 - npm test
 - npm run build
-
-after_script:
-- "sh -e /etc/init.d/xvfb stop"
 
 notifications:
   email: false

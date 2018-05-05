@@ -5,7 +5,7 @@ describe('NavBar.vue', () => {
   it('should render correct contents', () => {
     const Constructor = Vue.extend(NavBar);
     const vm = new Constructor().$mount();
-    expect(vm.$el.querySelector('.active').textContent)
-      .to.equal('');
+    expect(vm.$el.querySelector('.navbar-brand'))
+      .to.equal(null);
   });
 });
