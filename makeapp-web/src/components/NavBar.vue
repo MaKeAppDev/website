@@ -14,14 +14,14 @@
         <li class="nav-item" :class="{ active: $route.path === '/' }">
           <router-link class="nav-link" to="/">Home</router-link>
         </li>
-        <li v-for="section in $options.content.sections" :key="section" class="nav-item dropdown"
-            :class="{ active: isActive(section.titleShort) }">
+        <li v-for="section in $options.content.sections" :key="section.titleShort"
+            class="nav-item dropdown" :class="{ active: isActive(section.titleShort) }">
           <a class="nav-link dropdown-toggle" href="#" :id="'navbarDropdown' + section.titleShort"
              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{section.titleShort}}
           </a>
           <div class="dropdown-menu" :aria-labelledby="'navbarDropdown' + section.titleShort">
-            <div v-for="element in section.data" :key="element">
+            <div v-for="element in section.data" :key="element.title">
               <app-link v-if="element.link" :to="element.link" class="dropdown-item">
                 <img :src="element.icon" height="20px"> {{element.title}}
               </app-link>
@@ -34,7 +34,7 @@
         </li>
       </ul>
       <ul class="navbar-nav float-right">
-        <li v-for="ref in $options.content.refs" :key="ref" class="nav-item">
+        <li v-for="ref in $options.content.refs" :key="ref.title" class="nav-item">
           <app-link class="nav-link" :to="ref.link">
             <font-awesome-icon :icon="ref.icon"/>
           </app-link>

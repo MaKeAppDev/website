@@ -25,11 +25,11 @@
       </a>
     </div>
     <div class="container">
-      <div v-for="section in this.$options.content.sections" :key="section" class="my-5">
+      <div v-for="section in this.$options.content.sections" :key="section.titleShort" class="my-5">
         <h2>{{section.title}}</h2>
         <p class="text-muted">{{section.description}}</p>
         <div class="row">
-          <div v-for="element in section.data" :key="element" class="col-sm" align="center">
+          <div v-for="element in section.data" :key="element.title" class="col-sm" align="center">
             <content-card :title="element.title" :link="element.link" :image="element.icon"
                           :description="element.description" :tags="element.tags">
             </content-card>

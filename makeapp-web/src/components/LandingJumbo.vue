@@ -4,7 +4,7 @@
       <img v-if="showBrand" src="/static/logos/make_text_only.png" class="float-right"/>
       <h1>{{title}}</h1>
       <p class="lead">{{description}}</p>
-      <app-link v-for="ref in refs" :key="ref"
+      <app-link v-for="ref in refs" :key="ref.title"
          :class="'btn ' + btnStyle + ' mr-1 mb-1'" :to="ref.link">
         <font-awesome-icon :icon="ref.icon"/> {{ref.title}}
       </app-link>
