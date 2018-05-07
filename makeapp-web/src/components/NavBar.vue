@@ -11,10 +11,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-        <router-link class="nav-link" to="/">Home</router-link>
+        <li class="nav-item" :class="{ active: $route.path === '/' }">
+          <router-link class="nav-link" to="/">Home</router-link>
         </li>
-        <li v-for="section in $options.content.sections" :key="section" class="nav-item dropdown">
+        <li v-for="section in $options.content.sections" :key="section" class="nav-item dropdown"
+            :class="{ active: isActive(section.titleShort) }">
           <a class="nav-link dropdown-toggle" href="#" :id="'navbarDropdown' + section.titleShort"
              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{section.titleShort}}
@@ -63,6 +64,11 @@ export default {
   },
   content: BaseContent,
   mixins: [DevAlert],
+  methods: {
+    isActive(section) {
+      return this.$route.path.includes(section.toLowerCase());
+    },
+  },
 };
 </script>
 
