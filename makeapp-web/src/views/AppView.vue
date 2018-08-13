@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="row title justify-content-center py-4">
+    <div class="row title justify-content-center py-4" :style="{ 'background': storeBg }">
       <img class="titleLogo" :src="imagePath + titleLogo" alt="Logo">
     </div>
     <div class="row">
@@ -8,10 +8,10 @@
         <img class="device" :src="imagePath + deviceImage" alt="Device Store Image">
       </div>
     </div>
-    <div class="row highlighted text-center">
+    <div class="row highlighted text-center" :style="{ 'background-color': mainColor }">
       <a v-for="storeImage in storeImages" :key="storeImage" class="col blockImg"
          :href="storeImage.link" target="_blank">
-        <img class="storeImg" :src="imagePath + storeImage.image" alt="Download from Store">
+        <img class="storeImg" :src="appsPath + storeImage.image" alt="Download from Store">
       </a>
     </div>
   </div>
@@ -24,12 +24,16 @@ export default {
   name: 'MensaView',
   data() {
     const app = AppContent[this.$route.params.id];
+    const appsPath = '/static/apps/';
 
     return {
-      imagePath: `/static/apps/${this.$route.params.id}/`,
+      appsPath,
+      imagePath: `${appsPath}${this.$route.params.id}/`,
       titleLogo: app.titleLogo,
       deviceImages: app.deviceImages,
       storeImages: app.storeImages,
+      mainColor: app.mainColor,
+      storeBg: app.storeBg,
     };
   },
 };
@@ -40,7 +44,6 @@ export default {
 
 .highlighted {
   padding: 16px 0;
-  background-color: #76ad40;
   bottom: 0;
   box-shadow: 0 -1px 5px #888;
 }
@@ -48,7 +51,6 @@ export default {
 .title {
   font-weight: bold;
   color: white;
-  background: linear-gradient(0deg, #5f8b34, #9ec578);
   box-shadow: 0 1px 5px #888;
 }
 

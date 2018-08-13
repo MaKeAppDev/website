@@ -1,6 +1,8 @@
 {
   "mensa": {
     "titleLogo": "logo.png",
+    "mainColor": "#76ad40",
+    "storeBg": "linear-gradient(0deg, #5f8b34, #9ec578)",
     "deviceImages": [
       "iPhone.png",
       "nexus.png",
@@ -8,16 +10,40 @@
     ],
     "storeImages": [
       {
-        "image": "Download_on_the_App_Store_Badge_DE_Source_135x40.svg",
+        "image": "app-store.svg",
         "link": "https://itunes.apple.com/us/app/mensaplan-munchen/id881876703?l=de&ls=1&mt=8"
       },
       {
-        "image": "google_play_de.svg",
+        "image": "play-store.svg",
         "link": "https://play.google.com/store/apps/details?id=de.MaKeApp.MensaPlan"
       },
       {
-        "image": "amazon-apps-store-de-black.svg",
+        "image": "amazon-store.svg",
         "link": "http://www.amazon.de/MaKeApp-Mensa-M%C3%BCnchen/dp/B00OX0XVY0/"
+      }
+    ]
+  },
+  "observer": {
+    "titleLogo": "logo.png",
+    "mainColor": "#E040FB",
+    "storeBg": "linear-gradient(0deg, #CF2DFB, #FB47EB)",
+    "deviceImages": [
+      "iPhone.png",
+      "nexus.png",
+      "nexus_2.png"
+    ],
+    "storeImages": [
+      {
+        "image": "app-store.svg",
+        "link": "https://itunes.apple.com/us/app/status-observer/id1424468296?l=de&ls=1&mt=8"
+      },
+      {
+        "image": "play-store.svg",
+        "link": "https://play.google.com/store/apps/details?id=de.makeapp.observer"
+      },
+      {
+        "image": "amazon-store.svg",
+        "link": "https://www.amazon.de/s?ie=UTF8&field-brandtextbin=MaKeApp&index=mobile-apps&search-type=ss"
       }
     ]
   }

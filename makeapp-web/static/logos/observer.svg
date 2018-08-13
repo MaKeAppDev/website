@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator Pro for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 450 450">
+<metadata>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="GridSpacing" value="50"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path d="M22.9684+288.514C22.9684+242.352+60.2093+204.931+106.148+204.931C152.087+204.931+189.328+242.352+189.328+288.514C189.328+334.676+152.087+372.098+106.148+372.098C60.2093+372.098+22.9684+334.676+22.9684+288.514Z" stroke="#000000" stroke-width="25" fill="#d2d2d2" opacity="1" stroke-linejoin="round"/>
+<path d="M259.686+288.514C259.686+242.352+296.927+204.931+342.866+204.931C388.805+204.931+426.046+242.352+426.046+288.514C426.046+334.676+388.805+372.098+342.866+372.098C296.927+372.098+259.686+334.676+259.686+288.514Z" stroke="#000000" stroke-width="25" fill="#d2d2d2" opacity="1" stroke-linejoin="round"/>
+<path d="M191.864+307.942L258.371+307.942L258.371+254.003L191.864+254.003L191.864+307.942Z" stroke="#000000" stroke-width="25" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M86.6068+121.853C86.6068+89.0553+113.066+62.4676+145.705+62.4676C178.344+62.4676+204.804+89.0553+204.804+121.853C204.804+154.651+178.344+181.238+145.705+181.238C113.066+181.238+86.6068+154.651+86.6068+121.853Z" stroke="#000000" stroke-width="25" fill="#000000" opacity="1" stroke-linejoin="round"/>
+<path d="M254.792+121.853C254.792+89.0553+281.252+62.4676+313.891+62.4676C346.53+62.4676+372.989+89.0553+372.989+121.853C372.989+154.651+346.53+181.238+313.891+181.238C281.252+181.238+254.792+154.651+254.792+121.853Z" stroke="#000000" stroke-width="25" fill="#000000" opacity="1" stroke-linejoin="round"/>
+<path d="M205.159+163.136L252.411+163.136L252.411+124.813L205.159+124.813L205.159+163.136Z" stroke="#000000" stroke-width="25" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M15.4386+267.242C30.4376+226.827+80.3146+102.752+80.3146+102.752" stroke="#000000" stroke-width="5.36" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M429.796+282.556L376.282+114.059" stroke="#000000" stroke-width="18.13" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M185.841+285.2L209.231+117.674" stroke="#000000" stroke-width="18.13" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M257.683+284.725L248.282+114.782" stroke="#000000" stroke-width="18.13" fill="none" opacity="1" stroke-linejoin="round"/>
+<path d="M27.6316+237.105L133.299+201.561L185.367+239.166L208.508+116.951L158.61+89.4711L101.71+91.7091L79.8545+108.273L27.6316+237.105Z" opacity="1" fill="#000000"/>
+<path d="M404.107+214.831L319.497+197.475L256.9+252.59L262.339+104.962L294.186+85.3844L349.147+110.695L383.135+147.576L404.107+214.831Z" opacity="1" fill="#000000"/>
+<path d="M209.409+133.075L245.74+133.075L245.74+154.753L209.409+154.753L209.409+133.075Z" opacity="1" fill="#000000"/>
+<path d="M190.458+163.376L254.508+163.376L254.508+244.737L190.458+244.737L190.458+163.376Z" opacity="1" fill="#000000"/>
+<text stroke="#194d11" stroke-width="0.1" x="0" font-family="Courier-Bold" y="0" fill="#4caf50" font-size="186" vectornator:width="343" opacity="1" text-anchor="middle" transform="matrix(0.392186 0 0 0.392186 37.8855 245.211)" stroke-linejoin="round" vectornator:text="200">
+<tspan x="171.5" y="177" textLength="334.854">
+200</tspan>
+</text>
+<text x="0" font-family="Courier-Bold" y="0" text-anchor="middle" vectornator:text="404" fill="#f44336" font-size="186" vectornator:width="343" opacity="1" transform="matrix(0.392186 0 0 0.392186 275.438 243.189)">
+<tspan x="171.5" y="177" textLength="334.854">
+404</tspan>
+</text>
+</g>
+</svg>

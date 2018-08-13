@@ -53,9 +53,9 @@
           ]
         },
         {
-          "title": "MaKe Admin",
-          "icon": "/static/logos/admin.svg",
-          "link": "",
+          "title": "Status ObServer",
+          "icon": "/static/logos/observer.svg",
+          "link": "/apps/observer",
           "description": "Keep an overview about all your servers status in a single place",
           "tags": [
             {
@@ -65,6 +65,10 @@
             {
               "label": "Dart",
               "icon": ""
+            },
+            {
+              "label": "Ruby",
+              "icon": "devicon-ruby-plain"
             },
             {
               "label": "Kotlin",
