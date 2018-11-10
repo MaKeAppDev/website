@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import LandingJumbo from '@/components/LandingJumbo';
+import LandingJumbo from '@/components/LandingJumbo.vue';
 import SweetAlert from 'vue-sweetalert2';
 import VueResource from 'vue-resource';
 import Vue from 'vue';

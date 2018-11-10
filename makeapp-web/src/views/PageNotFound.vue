@@ -16,12 +16,13 @@
 </template>
 
 <script>
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
-import fontawesome from '@fortawesome/fontawesome';
-import regular from '@fortawesome/fontawesome-free-regular';
-import solid from '@fortawesome/fontawesome-free-solid';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { brands } from '@fortawesome/free-brands-svg-icons';
+import { regular } from '@fortawesome/free-regular-svg-icons';
 
-fontawesome.library.add(regular, solid);
+library.add(brands, regular);
+dom.watch();
 
 export default {
   name: 'PageNotFound',

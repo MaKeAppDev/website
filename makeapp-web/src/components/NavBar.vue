@@ -46,15 +46,16 @@
 
 <script>
 import 'bootstrap';
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
-import fontawesome from '@fortawesome/fontawesome';
-import brands from '@fortawesome/fontawesome-free-brands';
-import regular from '@fortawesome/fontawesome-free-regular';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { brands } from '@fortawesome/free-brands-svg-icons';
+import { regular } from '@fortawesome/free-regular-svg-icons';
 import BaseContent from '@/assets/data/base_content.json';
-import AppLink from '@/components/AppLink';
+import AppLink from '@/components/AppLink.vue';
 import DevAlert from './mixins/devAlert';
 
-fontawesome.library.add(brands, regular);
+library.add(brands, regular);
+dom.watch();
 
 export default {
   name: 'nav-bar-component',
