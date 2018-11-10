@@ -26,16 +26,20 @@
     ],
     "infos": [
       {
-        "date": "9/2016 - now",
+        "date": "1/2019 - ",
+        "text": "Technical University of Munich<br>PhD<br>Chair of Media Technology<br>Electrical and Computer Engineering"
+      },
+      {
+        "date": "9/2016 - 12/2018",
         "text": "Objective Software GmbH<br>IT-Consultant/Software Engineer"
       },
       {
         "date": "4/2014 - 3/2016",
-        "text": "Technical University of Munich<br>Master of Science<br>Electrical Engineering"
+        "text": "Technical University of Munich<br>Master of Science<br>Electrical and Computer Engineering"
       },
       {
         "date": "5/2011 - 3/2014",
-        "text": "Technical University of Munich<br>Bachelor of Science<br>Electrical Engineering"
+        "text": "Technical University of Munich<br>Bachelor of Science<br>Electrical and Computer Engineering"
       }
     ]
   },
@@ -75,11 +79,11 @@
       },
       {
         "date": "4/2014 - 9/2016",
-        "text": "Technical University of Munich<br>Master of Science<br>Electrical Engineering"
+        "text": "Technical University of Munich<br>Master of Science<br>Electrical and Computer Engineering"
       },
       {
         "date": "5/2011 - 3/2014",
-        "text": "Technical University of Munich<br>Bachelor of Science<br>Electrical Engineering"
+        "text": "Technical University of Munich<br>Bachelor of Science<br>Electrical and Computer Engineering"
       }
     ]
   }

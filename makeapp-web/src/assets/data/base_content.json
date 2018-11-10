@@ -115,7 +115,7 @@
           "title": "LaTeX 4 Ei",
           "icon": "/static/logos/latex4ei.png",
           "link": "http://latex4ei.de",
-          "description": "Notes and cheat sheets in LaTeX for electrical engineering (TUM)",
+          "description": "Notes and cheat sheets in LaTeX for Electrical and Computer Engineering (TUM)",
           "tags": [
             {
               "label": "LaTeX",
