@@ -46,10 +46,10 @@ import LandingJumbo from '@/components/LandingJumbo.vue';
 import BaseContent from '@/assets/data/base_content.json';
 import 'bootstrap';
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { brands } from '@fortawesome/free-brands-svg-icons';
-import { regular } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 
-library.add(brands, regular);
+library.add(fab, far);
 dom.watch();
 
 export default {

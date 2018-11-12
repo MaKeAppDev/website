@@ -48,13 +48,13 @@
 import 'bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { brands } from '@fortawesome/free-brands-svg-icons';
-import { regular } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 import BaseContent from '@/assets/data/base_content.json';
 import AppLink from '@/components/AppLink.vue';
 import DevAlert from './mixins/devAlert';
 
-library.add(brands, regular);
+library.add(fab, far);
 dom.watch();
 
 export default {
