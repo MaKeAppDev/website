@@ -24,7 +24,7 @@ export default {
   name: 'MensaView',
   data() {
     const app = AppContent[this.$route.params.id];
-    const appsPath = '/static/apps/';
+    const appsPath = '/apps/';
 
     return {
       appsPath,

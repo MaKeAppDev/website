@@ -70,6 +70,6 @@ export default {
 }
 
 .bg-image-second-slide {
-  background: url('/static/logos/make_text_only.png') no-repeat center center;
+  background: url('/logos/make_text_only.png') no-repeat center center;
 }
 </style>
