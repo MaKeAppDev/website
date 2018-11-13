@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import AppLink from '@/components/AppLink';
+import AppLink from '@/components/AppLink.vue';
 import DevAlert from './mixins/devAlert';
 
 export default {

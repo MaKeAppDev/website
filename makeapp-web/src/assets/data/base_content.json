@@ -26,7 +26,7 @@
       "data": [
         {
           "title": "Mensa München",
-          "icon": "/static/logos/mensa.png",
+          "icon": "/logos/mensa.png",
           "link": "/apps/mensa",
           "description": "Always know the menu for all university canteens in munich",
           "tags": [
@@ -54,7 +54,7 @@
         },
         {
           "title": "Status ObServer",
-          "icon": "/static/logos/observer.svg",
+          "icon": "/logos/observer.svg",
           "link": "/apps/observer",
           "description": "Keep an overview about all your servers status in a single place",
           "tags": [
@@ -82,7 +82,7 @@
         },
         {
           "title": "Volleyticker",
-          "icon": "/static/logos/volleyticker.png",
+          "icon": "/logos/volleyticker.png",
           "link": "",
           "description": "All results and ranking for the highest german volleyball divisions",
           "tags": [
@@ -113,7 +113,7 @@
       "data": [
         {
           "title": "LaTeX 4 Ei",
-          "icon": "/static/logos/latex4ei.png",
+          "icon": "/logos/latex4ei.png",
           "link": "http://latex4ei.de",
           "description": "Notes and cheat sheets in LaTeX for Electrical and Computer Engineering (TUM)",
           "tags": [
@@ -133,8 +133,8 @@
         },
         {
           "title": "TeX4TUM",
-          "icon": "/static/logos/tex4tum.png",
-          "link": "http://tex4tum.de",
+          "icon": "/logos/tex4tum.png",
+          "link": "https://www.tex4tum.de/",
           "description": "Interactive Knowledge Platform for Engineers",
           "tags": [
             {
@@ -157,7 +157,7 @@
         },
         {
           "title": "TUM-Projekte",
-          "icon": "/static/logos/ei.png",
+          "icon": "/logos/ei.png",
           "link": "https://makeappdev.github.io/TUM-Projekte/",
           "description": "GitHub Page for our TUM Projects and Documents",
           "tags": [
@@ -188,7 +188,7 @@
       "data": [
         {
           "title": "Markus Hofbauer",
-          "icon": "/static/logos/make.svg",
+          "icon": "/logos/make.svg",
           "link": "/owners/hofbi",
           "description": "",
           "tags": [
@@ -208,7 +208,7 @@
         },
         {
           "title": "Kevin Meyer",
-          "icon": "/static/logos/make.svg",
+          "icon": "/logos/make.svg",
           "link": "/owners/kevmeyer",
           "description": "",
           "tags": [

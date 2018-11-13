@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-sm">
     <router-link class="navbar-brand" to="/">
-      <img src="/static/logos/make_text_only.png" width="auto" height="40"
+      <img src="/logos/make_text_only.png" width="auto" height="40"
            class="d-inline-block align-top" alt="">
     </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -23,11 +23,11 @@
           <div class="dropdown-menu" :aria-labelledby="'navbarDropdown' + section.titleShort">
             <div v-for="element in section.data" :key="element.title">
               <app-link v-if="element.link" :to="element.link" class="dropdown-item">
-                <img :src="element.icon" height="20px"> {{element.title}}
+                <img :src="element.icon" height="20px" alt="Link"> {{element.title}}
               </app-link>
               <button v-else v-on:click="showInDevAlert(element.title)"
                       class="dropdown-item">
-                <img :src="element.icon" height="20px"> {{element.title}}
+                <img :src="element.icon" height="20px" alt="Button"> {{element.title}}
               </button>
             </div>
           </div>
@@ -46,15 +46,16 @@
 
 <script>
 import 'bootstrap';
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
-import fontawesome from '@fortawesome/fontawesome';
-import brands from '@fortawesome/fontawesome-free-brands';
-import regular from '@fortawesome/fontawesome-free-regular';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 import BaseContent from '@/assets/data/base_content.json';
-import AppLink from '@/components/AppLink';
+import AppLink from '@/components/AppLink.vue';
 import DevAlert from './mixins/devAlert';
 
-fontawesome.library.add(brands, regular);
+library.add(fab, far);
+dom.watch();
 
 export default {
   name: 'nav-bar-component',

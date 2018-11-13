@@ -1,7 +1,7 @@
 <template>
   <div :class="'jumbotron jumbotron-fluid h-100 ' + jumboStyle">
     <div class="container pt-4">
-      <img v-if="showBrand" src="/static/logos/make_text_only.png" class="float-right"/>
+      <img v-if="showBrand" src="/logos/make_text_only.png" class="float-right"/>
       <h1>{{title}}</h1>
       <p class="lead">{{description}}</p>
       <app-link v-for="ref in refs" :key="ref.title"
@@ -13,14 +13,15 @@
 </template>
 
 <script>
-import AppLink from '@/components/AppLink';
+import AppLink from '@/components/AppLink.vue';
 import 'bootstrap';
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome';
-import fontawesome from '@fortawesome/fontawesome';
-import brands from '@fortawesome/fontawesome-free-brands';
-import regular from '@fortawesome/fontawesome-free-regular';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 
-fontawesome.library.add(brands, regular);
+library.add(fab, far);
+dom.watch();
 
 export default {
   name: 'landing-jumbo',
