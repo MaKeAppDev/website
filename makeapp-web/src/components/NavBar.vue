@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-sm">
+  <nav class="navbar navbar-dark shadow bg-dark sticky-top navbar-expand-sm">
     <router-link class="navbar-brand" to="/">
       <img src="/logos/make_text_only.png" width="auto" height="40"
            class="d-inline-block align-top" alt="">
@@ -11,11 +11,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item" :class="{ active: $route.path === '/' }">
+        <li class="nav-item" :class="{ 'active font-weight-bold': $route.path === '/' }">
           <router-link class="nav-link" to="/">Home</router-link>
         </li>
         <li v-for="section in $options.content.sections" :key="section.titleShort"
-            class="nav-item dropdown" :class="{ active: isActive(section.titleShort) }">
+            class="nav-item dropdown"
+            :class="{ 'active font-weight-bold': isActive(section.titleShort) }">
           <a class="nav-link dropdown-toggle" href="#" :id="'navbarDropdown' + section.titleShort"
              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{section.titleShort}}

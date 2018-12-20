@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="row highlighted text-center" :style="{ 'background-color': mainColor }">
-      <a v-for="storeImage in storeImages" :key="storeImage" class="col blockImg"
+      <a v-for="storeImage in storeImages" :key="storeImage.image" class="col blockImg"
          :href="storeImage.link" target="_blank">
         <img class="storeImg" :src="appsPath + storeImage.image" alt="Download from Store">
       </a>

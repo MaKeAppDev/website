@@ -126,6 +126,10 @@
               "icon": ""
             },
             {
+              "label": "GitHub",
+              "icon": "devicon-github-plain"
+            },
+            {
               "label": "Travis",
               "icon": "devicon-travis-plain"
             }
@@ -144,6 +148,10 @@
             {
               "label": "Jekyll",
               "icon": ""
+            },
+            {
+              "label": "GitHub",
+              "icon": "devicon-github-plain"
             },
             {
               "label": "Ruby",
@@ -176,6 +184,10 @@
             {
               "label": "Matlab",
               "icon": ""
+            },
+            {
+              "label": "GitHub",
+              "icon": "devicon-github-plain"
             }
           ]
         }

@@ -2,7 +2,7 @@
   <div>
     <landing-jumbo
       title="Support" jumboStyle="bg-warning"
-      description="Contact MaKeApp for questions or issues related to any of our projects">
+      description="Contact us for questions or issues related to any of our projects">
     </landing-jumbo>
     <form class="container py-5" @submit="submitForm" action="javascript:void(0);">
       <div class="form-group">

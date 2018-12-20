@@ -1,7 +1,7 @@
 <template>
   <div :class="'jumbotron jumbotron-fluid h-100 ' + jumboStyle">
     <div class="container pt-4">
-      <img v-if="showBrand" src="/logos/make_text_only.png" class="float-right"/>
+      <img v-if="showBrand" src="/logos/make_text_only.png" class="float-right" alt="MaKeApp Logo"/>
       <h1>{{title}}</h1>
       <p class="lead">{{description}}</p>
       <app-link v-for="ref in refs" :key="ref.title"
