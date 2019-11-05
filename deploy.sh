@@ -8,6 +8,7 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 cp clear_build_products.sh dist/
+chmod +x dist/clear_build_products.sh
 
 echo "Deploy to $HOST"
-scp -r dist/* $HOST:~/html/
+scp -r dist/* "$HOST":~/html/

@@ -20,7 +20,7 @@
       <div class="form-group">
         <label for="inputMailText">Message</label>
         <textarea v-model="message" class="form-control" id="inputMailText" rows="5"
-                  placeholder="Enter your message"></textarea>
+                  placeholder="Enter your message"/>
       </div>
       <div v-if="errors.length">
         <p v-for="error in errors" :key="error" class="alert alert-danger"
@@ -32,10 +32,10 @@
 </template>
 
 <script>
-import LandingJumbo from '@/components/LandingJumbo.vue';
 import SweetAlert from 'vue-sweetalert2';
 import VueResource from 'vue-resource';
 import Vue from 'vue';
+import LandingJumbo from '@/components/LandingJumbo.vue';
 
 Vue.use(SweetAlert);
 Vue.use(VueResource);

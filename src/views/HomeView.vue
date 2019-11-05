@@ -2,13 +2,13 @@
   <div>
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselIndicators" data-slide-to="0" class="active"/>
+        <li data-target="#carouselIndicators" data-slide-to="1"/>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <landing-jumbo :title="$options.content.title" :description="$options.content.description"
-                         :refs="$options.content.refs" :showBrand="false"></landing-jumbo>
+                         :refs="$options.content.refs" :showBrand="false"/>
         </div>
         <div class="carousel-item">
           <div class="jumbotron jumbotron-fluid bg-primary h-100 bg-image-second-slide">
@@ -16,11 +16,11 @@
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"/>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"/>
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -41,13 +41,13 @@
 </template>
 
 <script>
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
 import ContentCard from '@/components/ContentCard.vue';
 import LandingJumbo from '@/components/LandingJumbo.vue';
 import BaseContent from '@/assets/data/base_content.json';
 import 'bootstrap';
-import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
 
 library.add(fab, far);
 dom.watch();

@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import AppLink from '@/components/AppLink.vue';
 import 'bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
+import AppLink from '@/components/AppLink.vue';
 
 library.add(fab, far);
 dom.watch();

@@ -20,93 +20,6 @@
   ],
   "sections": [
     {
-      "title": "Apps",
-      "titleShort": "Apps",
-      "description": "List of all our applications developed for Android and iOS and provided in the related stores.",
-      "data": [
-        {
-          "title": "Mensa München",
-          "icon": "/logos/mensa.png",
-          "link": "/apps/mensa",
-          "description": "Always know the menu for all university canteens in munich",
-          "tags": [
-            {
-              "label": "Kotlin",
-              "icon": ""
-            },
-            {
-              "label": "Java",
-              "icon": "devicon-java-plain"
-            },
-            {
-              "label": "Objective-C",
-              "icon": ""
-            },
-            {
-              "label": "Swift",
-              "icon": "devicon-swift-plain"
-            },
-            {
-              "label": "PHP",
-              "icon": "devicon-php-plain"
-            }
-          ]
-        },
-        {
-          "title": "Status ObServer",
-          "icon": "/logos/observer.svg",
-          "link": "/apps/observer",
-          "description": "Keep an overview about all your servers status in a single place",
-          "tags": [
-            {
-              "label": "Flutter",
-              "icon": ""
-            },
-            {
-              "label": "Dart",
-              "icon": ""
-            },
-            {
-              "label": "Ruby",
-              "icon": "devicon-ruby-plain"
-            },
-            {
-              "label": "Kotlin",
-              "icon": ""
-            },
-            {
-              "label": "Swift",
-              "icon": "devicon-swift-plain"
-            }
-          ]
-        },
-        {
-          "title": "Volleyticker",
-          "icon": "/logos/volleyticker.png",
-          "link": "",
-          "description": "All results and ranking for the highest german volleyball divisions",
-          "tags": [
-            {
-              "label": "Flutter",
-              "icon": ""
-            },
-            {
-              "label": "Dart",
-              "icon": ""
-            },
-            {
-              "label": "Kotlin",
-              "icon": ""
-            },
-            {
-              "label": "Swift",
-              "icon": "devicon-swift-plain"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Open Source Projects",
       "titleShort": "Projects",
       "description": "List of all our open source projects we were or are working on.",
@@ -188,6 +101,93 @@
             {
               "label": "GitHub",
               "icon": "devicon-github-plain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Apps",
+      "titleShort": "Apps",
+      "description": "List of all our applications developed for Android and iOS and provided in the related stores.",
+      "data": [
+        {
+          "title": "Mensa München",
+          "icon": "/logos/mensa.png",
+          "link": "/apps/mensa",
+          "description": "Always know the menu for all university canteens in munich",
+          "tags": [
+            {
+              "label": "Kotlin",
+              "icon": ""
+            },
+            {
+              "label": "Java",
+              "icon": "devicon-java-plain"
+            },
+            {
+              "label": "Objective-C",
+              "icon": ""
+            },
+            {
+              "label": "Swift",
+              "icon": "devicon-swift-plain"
+            },
+            {
+              "label": "PHP",
+              "icon": "devicon-php-plain"
+            }
+          ]
+        },
+        {
+          "title": "Status ObServer",
+          "icon": "/logos/observer.svg",
+          "link": "/apps/observer",
+          "description": "Keep an overview about all your servers status in a single place",
+          "tags": [
+            {
+              "label": "Flutter",
+              "icon": ""
+            },
+            {
+              "label": "Dart",
+              "icon": ""
+            },
+            {
+              "label": "Ruby",
+              "icon": "devicon-ruby-plain"
+            },
+            {
+              "label": "Kotlin",
+              "icon": ""
+            },
+            {
+              "label": "Swift",
+              "icon": "devicon-swift-plain"
+            }
+          ]
+        },
+        {
+          "title": "Volleyticker",
+          "icon": "/logos/volleyticker.png",
+          "link": "",
+          "description": "All results and ranking for the highest german volleyball divisions",
+          "tags": [
+            {
+              "label": "Flutter",
+              "icon": ""
+            },
+            {
+              "label": "Dart",
+              "icon": ""
+            },
+            {
+              "label": "Kotlin",
+              "icon": ""
+            },
+            {
+              "label": "Swift",
+              "icon": "devicon-swift-plain"
             }
           ]
         }
