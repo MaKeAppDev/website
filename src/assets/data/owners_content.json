@@ -4,6 +4,11 @@
     "description": "M.Sc., Dipl-Ing (TUM)",
     "refs": [
       {
+        "link": "https://hofbi.github.io",
+        "icon": ["fas", "globe"],
+        "title": "Website"
+      },
+      {
         "link": "https://github.com/hofbi",
         "icon": ["fab", "github"],
         "title": "GitHub"
@@ -109,6 +114,11 @@
     "name": "Kevin Meyer",
     "description": "M.Sc., Dipl-Ing (TUM)",
     "refs": [
+      {
+        "link": "https://makeappdev.com",
+        "icon": ["fas", "globe"],
+        "title": "Website"
+      },
       {
         "link": "https://github.com/kevmeyer",
         "icon": ["fab", "github"],
