@@ -1,6 +1,7 @@
 # MaKeApp Web
 
 [![Build Status](https://travis-ci.org/MaKeAppDev/website.svg?branch=master)](https://travis-ci.org/MaKeAppDev/website)
+[![Actions Status](https://github.com/MaKeAppDev/website/workflows/CodeQL/badge.svg)](https://github.com/MaKeAppDev/website)
 
 MaKeApp Website
 
