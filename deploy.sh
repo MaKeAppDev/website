@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 HOST=$1
 CLEAR_SCRIPT="clear_build_products.sh"
 
@@ -13,7 +15,8 @@ chmod +x dist/$CLEAR_SCRIPT
 
 echo "Clearing old version on $HOST"
 scp dist/$CLEAR_SCRIPT "$HOST":~/html/
-ssh $HOST "cd ~/html/ && ./$CLEAR_SCRIPT"
+# shellcheck disable=SC2029
+ssh "$HOST" "cd ~/html/ && ./$CLEAR_SCRIPT"
 
 echo "Deploy to $HOST"
 scp -r dist/* "$HOST":~/html/
