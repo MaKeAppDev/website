@@ -32,12 +32,11 @@
 </template>
 
 <script>
-import SweetAlert from 'vue-sweetalert2';
+import Swal from 'sweetalert2';
 import VueResource from 'vue-resource';
 import Vue from 'vue';
 import LandingJumbo from '@/components/LandingJumbo.vue';
 
-Vue.use(SweetAlert);
 Vue.use(VueResource);
 
 export default {
@@ -81,14 +80,14 @@ export default {
           message: this.message,
         },
       ).then(() => {
-        this.$swal.fire({
+        Swal.fire({
           title: 'Email sent!',
           icon: 'success',
           text: 'Your email was sent successfully',
         });
         this.sending = false;
       }, () => {
-        this.$swal.fire({
+        Swal.fire({
           title: 'Failed',
           icon: 'error',
           text: 'Email could not be sent',

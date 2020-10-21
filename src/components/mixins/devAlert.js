@@ -1,12 +1,9 @@
-import SweetAlert from 'vue-sweetalert2';
-import Vue from 'vue';
-
-Vue.use(SweetAlert);
+import Swal from 'sweetalert2';
 
 export default {
   methods: {
     showInDevAlert(projectName) {
-      this.$swal.fire({
+      Swal.fire({
         title: 'In Development',
         icon: 'warning',
         showCloseButton: true,
