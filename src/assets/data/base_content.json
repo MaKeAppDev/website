@@ -16,6 +16,11 @@
       "link": "/support",
       "icon": ["far", "life-ring"],
       "title": "Support"
+    },
+    {
+      "link": "/privacy",
+      "icon": ["fa", "lock"],
+      "title": "Privacy Policy"
     }
   ],
   "sections": [
