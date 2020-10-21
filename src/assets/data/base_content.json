@@ -123,24 +123,24 @@
           "description": "Always know the menu for all university canteens in munich",
           "tags": [
             {
-              "label": "Kotlin",
+              "label": "Python",
+              "icon": "devicon-python-plain"
+            },
+            {
+              "label": "Django",
+              "icon": "devicon-django-plain"
+            },
+            {
+              "label": "Flutter",
               "icon": ""
             },
             {
-              "label": "Java",
-              "icon": "devicon-java-plain"
-            },
-            {
-              "label": "Objective-C",
+              "label": "Dart",
               "icon": ""
             },
             {
-              "label": "Swift",
-              "icon": "devicon-swift-plain"
-            },
-            {
-              "label": "PHP",
-              "icon": "devicon-php-plain"
+              "label": "Ruby",
+              "icon": "devicon-ruby-plain"
             }
           ]
         },
@@ -161,14 +161,6 @@
             {
               "label": "Ruby",
               "icon": "devicon-ruby-plain"
-            },
-            {
-              "label": "Kotlin",
-              "icon": ""
-            },
-            {
-              "label": "Swift",
-              "icon": "devicon-swift-plain"
             }
           ]
         },
@@ -187,12 +179,8 @@
               "icon": ""
             },
             {
-              "label": "Kotlin",
-              "icon": ""
-            },
-            {
-              "label": "Swift",
-              "icon": "devicon-swift-plain"
+              "label": "Ruby",
+              "icon": "devicon-ruby-plain"
             }
           ]
         }
