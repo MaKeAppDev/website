@@ -33,6 +33,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "support" */ './views/SupportView.vue'),
     },
     {
+      path: '/privacy',
+      name: 'PrivacyPolicyView',
+      component: () => import(/* webpackChunkName: "privacy" */ './views/PrivacyPolicyView.vue'),
+    },
+    {
       path: '*',
       name: 'PageNotFound',
       component: PageNotFound,
