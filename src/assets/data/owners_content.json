@@ -55,30 +55,6 @@
         "subtext": "Department of Electrical and Computer Engineering, Technical University of Munich, Germany"
       }
     ],
-    "publications": [
-      {
-        "title": "Title",
-        "authors": "Authors",
-        "publisher": "Publisher",
-        "links": [
-          {
-            "label": "PDF",
-            "link": "",
-            "icon": ["fas", "file-pdf"]
-          },
-          {
-            "label": "BibTeX",
-            "link": "",
-            "icon": ["fas", "book"]
-          },
-          {
-            "label": "DOI",
-            "link": "",
-            "icon": ["fas", "globe"]
-          }
-        ]
-      }
-    ],
     "projects": [
       {
         "title": "Dev Sync",
