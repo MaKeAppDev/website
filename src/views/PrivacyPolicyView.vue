@@ -8,10 +8,6 @@
     </landing-jumbo>
     <div class="container pt-5">
       <h1>Datenschutzerklärung</h1>
-      <p>
-        Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
-        EU-Datenschutzgrundverordnung (DSGVO), ist:
-      </p>
       <p></p>
       <h2>Ihre Betroffenenrechte</h2>
       <p>
@@ -132,7 +128,6 @@
         Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung,
         Ausübung oder Verteidigung von Rechtsansprüchen.
       </p>
-      <h3>Empfänger eines Widerspruchs</h3>
       <p></p>
       <hr />
       <h2>Änderung unserer Datenschutzbestimmungen</h2>
