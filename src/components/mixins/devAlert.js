@@ -6,9 +6,9 @@ Vue.use(SweetAlert);
 export default {
   methods: {
     showInDevAlert(projectName) {
-      this.$swal({
+      this.$swal.fire({
         title: 'In Development',
-        type: 'info',
+        icon: 'warning',
         showCloseButton: true,
         text: `The project and page  ${projectName} is currently in development and will be available in the future`,
       });

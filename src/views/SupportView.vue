@@ -81,16 +81,16 @@ export default {
           message: this.message,
         },
       ).then(() => {
-        this.$swal({
+        this.$swal.fire({
           title: 'Email sent!',
-          type: 'success',
+          icon: 'success',
           text: 'Your email was sent successfully',
         });
         this.sending = false;
       }, () => {
-        this.$swal({
+        this.$swal.fire({
           title: 'Failed',
-          type: 'error',
+          icon: 'error',
           text: 'Email could not be sent',
         });
         this.sending = false;

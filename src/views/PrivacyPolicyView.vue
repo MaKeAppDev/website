@@ -165,12 +165,10 @@
 </template>
 
 <script>
-import SweetAlert from 'vue-sweetalert2';
 import VueResource from 'vue-resource';
 import Vue from 'vue';
 import LandingJumbo from '@/components/LandingJumbo.vue';
 
-Vue.use(SweetAlert);
 Vue.use(VueResource);
 
 export default {
