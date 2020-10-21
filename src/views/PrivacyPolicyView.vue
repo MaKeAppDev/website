@@ -2,7 +2,7 @@
   <div>
     <landing-jumbo
       title="Privacy Policy"
-      jumboStyle="bg-warning"
+      jumboStyle="bg-success text-white"
       description="When in doubt, contact us!"
     >
     </landing-jumbo>
