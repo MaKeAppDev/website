@@ -28,7 +28,7 @@ export default {
 
     return {
       appsPath,
-      imagePath: `${appsPath}${this.$route.params.id}/`,
+      imagePath: `/assets${appsPath}${this.$route.params.id}/`,
       titleLogo: app.titleLogo,
       deviceImages: app.deviceImages,
       storeImages: app.storeImages,
