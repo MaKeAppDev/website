@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-dark shadow bg-dark sticky-top navbar-expand-sm">
     <router-link class="navbar-brand" to="/">
-      <img src="/logos/make_text_only.png" width="auto" height="40"
+      <img src="/assets/logos/make_text_only.png" width="auto" height="40"
            class="d-inline-block align-top" alt="">
     </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse"

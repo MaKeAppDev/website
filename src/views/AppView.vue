@@ -24,11 +24,11 @@ export default {
   name: 'MensaView',
   data() {
     const app = AppContent[this.$route.params.id];
-    const appsPath = '/apps/';
+    const appsPath = '/assets/apps/';
 
     return {
       appsPath,
-      imagePath: `/assets${appsPath}${this.$route.params.id}/`,
+      imagePath: `${appsPath}${this.$route.params.id}/`,
       titleLogo: app.titleLogo,
       deviceImages: app.deviceImages,
       storeImages: app.storeImages,
