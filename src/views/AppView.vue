@@ -61,6 +61,7 @@ export default {
 
 .device {
   width: 100%;
+  padding: 0 100px;
 }
 
 .storeImg {
