@@ -5,7 +5,6 @@
     "storeBg": "linear-gradient(0deg, #5f8b34, #9ec578)",
     "deviceImages": [
       "iPhone.png",
-      "nexus.png",
       "nexus.png"
     ],
     "storeImages": [
@@ -16,10 +15,6 @@
       {
         "image": "play-store.svg",
         "link": "https://play.google.com/store/apps/details?id=de.MaKeApp.MensaPlan"
-      },
-      {
-        "image": "amazon-store.svg",
-        "link": "http://www.amazon.de/MaKeApp-Mensa-M%C3%BCnchen/dp/B00OX0XVY0/"
       }
     ]
   },
@@ -29,8 +24,7 @@
     "storeBg": "linear-gradient(0deg, #CF2DFB, #FB47EB)",
     "deviceImages": [
       "iPhone.png",
-      "nexus.png",
-      "nexus_2.png"
+      "nexus.png"
     ],
     "storeImages": [
       {
@@ -40,10 +34,6 @@
       {
         "image": "play-store.svg",
         "link": "https://play.google.com/store/apps/details?id=de.makeapp.observer"
-      },
-      {
-        "image": "amazon-store.svg",
-        "link": "https://www.amazon.de/s?ie=UTF8&field-brandtextbin=MaKeApp&index=mobile-apps&search-type=ss"
       }
     ]
   }
