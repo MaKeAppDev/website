@@ -5,7 +5,7 @@
     <hr v-if="image">
     <div class="card-body">
       <h5 class="card-title">{{title}}</h5>
-      <span v-for="tag in tags" :key="tag.label" class="badge badge-primary ml-1">
+      <span v-for="tag in tags" :key="tag.label" class="badge badge-primary ml-1 mb-1">
          <i :class="tag.icon"></i> {{tag.label}}
       </span>
       <p class="card-text text-muted mt-3">{{description}}</p>
