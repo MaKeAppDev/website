@@ -1,58 +1,61 @@
 # MaKeApp Web
 
-[![Build Status](https://travis-ci.org/MaKeAppDev/website.svg?branch=master)](https://travis-ci.org/MaKeAppDev/website)
 [![Actions Status](https://github.com/MaKeAppDev/website/workflows/CodeQL/badge.svg)](https://github.com/MaKeAppDev/website)
 
-MaKeApp Website
+This template should help get you started developing with Vue 3 in Vite.
 
-## Project setup
+## Recommended IDE Setup
 
-```shell
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+
+1. Disable the built-in TypeScript Extension
+    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and Hot-Reload for Development
 
-```shell
-npm run serve
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Type-Check, Compile and Minify for Production
 
-```shell
+```sh
 npm run build
 ```
 
-### Run tests
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-```shell
-npm test
-```
-
-### Run tests in console
-
-```shell
-npm test:ci
-```
-
-### Lints and fixes files
-
-```shell
-npm run lint
-```
-
-### Run end-to-end tests
-
-```shell
-npm run test:e2e
-```
-
-### Run unit tests
-
-```shell
+```sh
 npm run test:unit
 ```
 
-### Customize configuration
+### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```sh
+npm run build
+npm run test:e2e # or `npm run test:e2e:ci` for headless testing
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

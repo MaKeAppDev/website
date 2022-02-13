@@ -11,21 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
       - run: npm install
       - run: npm run lint
-      - run: npm run test:ci
-
-  super-lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Super-Linter
-        uses: github/super-linter@v3.11.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_JAVASCRIPT_ES: false
-          VALIDATE_JAVASCRIPT_STANDARD: false
-          VALIDATE_EDITORCONFIG: false
+      - run: npm run typecheck
+      # - run: npm run test:unit
+      # - run: npm run build
+      # - run: npm run test:e2e:ci
