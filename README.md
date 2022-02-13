@@ -3,7 +3,13 @@
 [![Actions Status](https://github.com/MaKeAppDev/website/workflows/CI/badge.svg)](https://github.com/MaKeAppDev/website)
 [![Actions Status](https://github.com/MaKeAppDev/website/workflows/CodeQL/badge.svg)](https://github.com/MaKeAppDev/website)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Devcontainer
+
+1. Ensure that Docker is installed and running on your machine
+1. Open this folder in VS Code
+1. Install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension
+1. Open the command palette (`F1` on Windows, `Shift+Ctrl+P` on Linux)
+1. Call `Remote-Containers: Reopen in Container`
 
 ## Recommended IDE Setup
 

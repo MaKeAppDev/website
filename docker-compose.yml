@@ -2,7 +2,9 @@ version: '3.7'
 
 services:
   website:
-    image: node:lts-alpine
+    build:
+      context: ./
+      dockerfile: .devcontainer/Dockerfile
     volumes:
       - '.:/app'
     working_dir: '/app'

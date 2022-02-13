@@ -1,0 +1,19 @@
+{
+    "name": "MaKeApp Website",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "johnsoncodehk.volar",
+        "johnsoncodehk.vscode-typescript-vue-plugin",
+        "christian-kohler.path-intellisense",
+        "streetsidesoftware.code-spell-checker",
+        "eamodio.gitlens",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "yzhang.markdown-all-in-one",
+        "ms-azuretools.vscode-docker"
+    ],
+    "forwardPorts": [
+        3000,
+    ],
+}
